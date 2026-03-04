@@ -2525,4 +2525,18 @@ body {
 html {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+
+}
+
+
+html, body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+
+    #cars-display-grid {
+        grid-template-columns: 1fr; /* 1 card per row */
+    }
+
 }
