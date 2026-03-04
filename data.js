@@ -364,7 +364,7 @@ const f1Teams2026 = [
         { name: "C. Leclerc", link: "https://www.formula1.com/en/drivers/charles-leclerc" },
         { name: "L. Hamilton", link: "https://www.formula1.com/en/drivers/lewis-hamilton" }
     ],
-    history: "The only team to compete in every season since 1950, the "Prancing Horse" is the most successful constructor in history with 16 Team Championships and 15 Drivers' Titles. Legends like Michael Schumacher and Niki Lauda defined their legacy, while their engineering is synonymous with the iconic V12 and modern hybrid power units developed in Maranello."
+    history: "The only team to compete in every season since 1950, the Prancing Horse is the most successful constructor in history with 16 Team Championships and 15 Drivers' Titles. Legends like Michael Schumacher and Niki Lauda defined their legacy, while their engineering is synonymous with the iconic V12 and modern hybrid power units developed in Maranello."
 },
 
 {
@@ -396,7 +396,7 @@ const f1Teams2026 = [
         { name: "G. Russell", link: "https://www.formula1.com/en/drivers/george-russell" },
         { name: "K. Antonelli", link: "https://www.formula1.com/en/drivers/kimi-antonelli" }
     ],
-    history: "While their roots go back to the 1950s with Juan Manuel Fangio, the modern "Silver Arrows" returned in 2010 after acquiring Brawn GP. They achieved an unprecedented 8 consecutive Constructors' Championships (2014–2021), powered by their Brixworth-developed hybrid engines and the brilliance of Lewis Hamilton."
+    history: "While their roots go back to the 1950s with Juan Manuel Fangio, the modern Silver Arrows returned in 2010 after acquiring Brawn GP. They achieved an unprecedented 8 consecutive Constructors' Championships (2014–2021), powered by their Brixworth-developed hybrid engines and the brilliance of Lewis Hamilton."
 },
 
 {
@@ -412,7 +412,7 @@ const f1Teams2026 = [
         { name: "M. Verstappen", link: "https://www.formula1.com/en/drivers/max-verstappen" },
         { name: "I. Hadjar", link: "https://www.formula1.com/en/drivers/isack-hadjar" }
     ],
-    history: "Debuting in 2005 after buying Jaguar, Red Bull transformed from a "party team" into a powerhouse with 6 Constructors' titles. Driven by design genius Adrian Newey and legends Sebastian Vettel and Max Verstappen, they enter 2026 as a full manufacturer via Red Bull Ford Powertrains."
+    history: "Debuting in 2005 after buying Jaguar, Red Bull transformed from a party team into a powerhouse with 6 Constructors' titles. Driven by design genius Adrian Newey and legends Sebastian Vettel and Max Verstappen, they enter 2026 as a full manufacturer via Red Bull Ford Powertrains."
 },
 
 {
@@ -428,7 +428,7 @@ const f1Teams2026 = [
         { name: "F. Alonso", link: "https://www.formula1.com/en/drivers/fernando-alonso" },
         { name: "L. Stroll", link: "https://www.formula1.com/en/drivers/lance-stroll" }
     ],
-    history: "Operating under various names since Jordan’s debut in 1991, the team became Aston Martin in 2021. While yet to win a title, they carry the heritage of "the little team that could" (Force India) and are now a top-tier contender with a massive new campus in Silverstone."
+    history: "Operating under various names since Jordan’s debut in 1991, the team became Aston Martin in 2021. While yet to win a title, they carry the heritage of the little team that could (Force India) and are now a top-tier contender with a massive new campus in Silverstone."
 },
 
 {
@@ -460,7 +460,7 @@ const f1Teams2026 = [
         { name: "C. Sainz", link: "https://www.formula1.com/en/drivers/carlos-sainz" },
         { name: "A. Albon", link: "https://www.formula1.com/en/drivers/alexander-albon" }
     ],
-    history: "One of Formula 1’s most historic teams continues its revival with Carlos Sainz bringing race-winning experience to a proud racing institution."
+    history: "Established in 1977 by Frank Williams and Patrick Head, this independent team dominated the 80s and 90s with 9 Constructors' Championships. Legends like Nigel Mansell and Alain Prost piloted their cars, which were often at the cutting edge of innovation, such as the famous active suspension of 1992."
 },
 
 {
@@ -561,3 +561,4 @@ const zenithRaceSchedule = [
     { round: 24, gp: "Abu Dhabi Grand Prix", Qualifying: { iso: "2026-12-05T19:00:00+05:00" }, Race: { iso: "2026-12-06T18:00:00+05:00" }, hubUrl: "race-hub-uae.html" }
 
 ];
+
