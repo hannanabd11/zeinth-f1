@@ -336,7 +336,7 @@ function renderDrivers() {
     
     <a href="https://www.google.com/search?tbm=isch&q=${firstName}+${lastName}+F1+2026+Portrait" target="_blank" style="text-decoration: none; color: inherit; display: block;">
         <div class="driver-image-area">
-            <img src="images/Drivers/${d.id}.png" class="driver-portrait" onerror="this.src='https://dummyimage.com/400x600/111/fff&text=DRIVER'">
+            <img src="/Drivers/${d.id}.png" class="driver-portrait" onerror="this.src='https://dummyimage.com/400x600/111/fff&text=DRIVER'">
             <div class="image-gradient"></div>
         </div>
     </a>
@@ -467,7 +467,7 @@ function initCarsTab() {
         
         for (let i = 1; i <= photoCount; i++) {
             imgHtml += `
-                <img src="images/Cars/${car.id}-${i}.avif" 
+                <img src="/Cars/${car.id}-${i}.avif" 
                      id="img-${car.id}-${i}" 
                      data-ext="avif" 
                      onerror="tryNextExt(this, '${car.id}', ${i})" 
@@ -961,4 +961,5 @@ async function updateF1Weather() {
 /** * THIS IS THE FIX: 
  * It triggers the update automatically when the page finishes loading.
  */
+
 window.addEventListener('DOMContentLoaded', updateF1Weather);
