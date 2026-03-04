@@ -154,7 +154,7 @@ function updateZenithTimer() {
 
         label.innerText = `${race.gp.split(' ')[0].toUpperCase()} ${sessionName}`;
 
-        // Precise Math Calculations
+        // Math Calculations
         const d = Math.floor(diff / (1000 * 60 * 60 * 24));
         const h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
@@ -462,31 +462,19 @@ function initCarsTab() {
     if (!grid) return;
 
     grid.innerHTML = f1Cars2026.map(car => {
-        const photoCount = 5; // Restored to 5 angles
+        const photoCount = 5; 
         let imgHtml = '';
         
+        // Loop 1 to 5 for the angles
         for (let i = 1; i <= photoCount; i++) {
+            // We start by trying .avif (best quality)
+            // If it fails, tryNextExt will automatically try .jpg then .webp
             imgHtml += `
                 <img src="./Cars/${car.id}-${i}.avif"
-                
                      id="img-${car.id}-${i}" 
                      data-ext="avif" 
                      onerror="tryNextExt(this, '${car.id}', ${i})" 
-                     alt="Angle ${i}">`;
-        }
-                        <img src="./Cars/${car.id}-${i}.jpg"
-                
-                     id="img-${car.id}-${i}" 
-                     data-ext="avif" 
-                     onerror="tryNextExt(this, '${car.id}', ${i})" 
-                     alt="Angle ${i}">`;
-        }
-                        <img src="./Cars/${car.id}-${i}.webp"
-                
-                     id="img-${car.id}-${i}" 
-                     data-ext="avif" 
-                     onerror="tryNextExt(this, '${car.id}', ${i})" 
-                     alt="Angle ${i}">`;
+                     alt="${car.team} Angle ${i}">`;
         }
 
         return `
@@ -978,6 +966,7 @@ async function updateF1Weather() {
  */
 
 window.addEventListener('DOMContentLoaded', updateF1Weather);
+
 
 
 
