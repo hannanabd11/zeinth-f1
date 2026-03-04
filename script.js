@@ -536,7 +536,7 @@ async function initSchedule() {
     container.innerHTML = `
         <div class="loading-container">
             <div class="f1-spinner"></div>
-            <p>FETCHING 2025 SEASON DATA...</p>
+            <p>FETCHING 2026 SEASON DATA...</p>
         </div>
     `;
 
@@ -576,7 +576,7 @@ async function initSchedule() {
                     .replace(/grand prix/g, '')
                     .trim()
                     .replace(/\s+/g, '-');
-                return `https://www.formula1.com/en/results.html/2025/races.html`; 
+                return `https://www.formula1.com/en/results.html/2026/races.html`; 
                 // Note: Deep linking to specific practice tabs is restricted by F1's dynamic IDs,
                 // so linking to the 2025 results hub is the most reliable way to jump to the right tab.
             };
@@ -964,6 +964,7 @@ async function updateF1Weather() {
  */
 
 window.addEventListener('DOMContentLoaded', updateF1Weather);
+
 
 
 
